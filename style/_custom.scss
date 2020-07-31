@@ -1,0 +1,40 @@
+header {
+  .navbar-nav .active > .nav-link {
+    font-weight: bold;
+  }
+}
+.consulting-today {
+  margin-top: 5rem;
+  margin-bottom: 12rem;
+  .consult-block {
+    h2 {
+      margin-bottom: 1rem;
+    }
+    .text {
+      margin-bottom: 3rem;
+    }
+  }
+}
+.services {
+  max-width: 950px;
+  .name-section {
+    margin-bottom: 2.5rem;
+
+
+  }
+  .line-section-services {
+    margin-bottom: 2.5rem;
+    .line {
+      width: 56px;
+      height: 2px;
+      background: #000000;
+      border-radius: 5px;
+    }
+
+
+
+
+  }
+
+}
+
