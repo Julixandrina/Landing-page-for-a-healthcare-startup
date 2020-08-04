@@ -1,9 +1,15 @@
 .spot-image {
-  top: 850px;
+  top: 915px;
   right: 0;
   left: 0;
   bottom: 0;
   z-index: -1;
+}
+.line {
+  width: 56px;
+  height: 2px;
+  background: #000000;
+  border-radius: 5px;
 }
 h2 {
   font-weight: bold;
@@ -62,26 +68,20 @@ header {
   }
   .line-section-services {
     margin-bottom: 2.06rem;
-    .line {
-      width: 56px;
-      height: 2px;
-      background: #000000;
-      border-radius: 5px;
-    }
+
   }
 }
 .container-cards-services {
   margin-bottom: 5rem;
-  padding-left: 3.75rem;
-  padding-right: 3.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   position: relative;
   .circle-image-services {
-    right: 12px;
-    top: 295px;
+    right: 10px;
+    top: 265px;
   }
-  .row {
+  .card-area {
     margin-bottom: 2.3rem;
-
   }
   .circle-image-services img {
     top: 0;
@@ -90,42 +90,47 @@ header {
     bottom: 0;
   }
   .container-image-card {
-    padding: 2.91rem 2.43rem 0;
-   /* height: 140px;*/
+    flex-basis: 140px;
+    min-height: 140px;
+    max-height: 140px;
+    padding-left: 2.43rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
   }
   .card {
     max-width: 350px;
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
     height: 100%;
     border: 1px solid rgba(0, 0, 0, 0);
-    .image-search {
-      max-width: 91.98px;
-      max-height: 90px;
+    .search-image {
+      height: 90px;
+      width: 92px;
     }
     .pharmacy-image {
-      width: 61.86px;
       height: 85px;
+      width: 62px;
     }
     .consultation-image {
-      max-width: 67.29px;
-      max-height: 95px;
+      height: 95px;
+      width: 68px;
     }
     .info-image {
-      max-width: 67.08px;
-      max-height: 95px;
+      height: 95px;
+      width: 68px;
     }
     .care-image {
-      max-width: 80px;
-      max-height: 71.15px;
+      width: 80px;
+      height: 72px;
     }
     .tracking-image {
-      max-width: 69.42px;
-      max-height: 95px;
+      width: 70px;
+      height: 95px;
+
     }
     .card-title {
       font-weight: bold;
       font-size: 1.5rem;
-      line-height: 3.5rem;
     }
     .card-text {
       font-size: 1rem;
@@ -134,4 +139,100 @@ header {
     }
   }
 }
+.btn-view-more-services {
+  margin-bottom: 13.75rem;
+}
+.providers-learn {
+  margin-bottom: 10rem;
+  img.position-absolute.circle-img-after-providers {
+    right: -100px;
+    bottom: -50px;
+  }
+.info {
+  padding-left: 7.62rem;
+  padding-right: 4.5rem;
+  .title-providers-block{
+    margin-bottom: 1.625rem;
+    font-size: 2.25rem;
+    line-height: 3.5rem;
+    font-weight: bold;
+  }
+  .line {
+    border-radius: 0.625rem;
+    margin-bottom: 1.94rem;
+  }
+  .text-providers-block {
+    font-weight: 300;
+    line-height: 1.87rem;
+    margin-bottom: 2.31rem;
+  }
+}
+
+}
+.download-app {
+  margin-bottom: 15rem;
+  .block-text-download {
+    padding-left: 7.62rem;
+    padding-right: 4rem;
+    .title-download-block {
+      font-weight: bold;
+      font-size: 2.25rem;
+      margin-bottom: 1.87rem;
+    }
+    .line {
+      margin-bottom: 1.87rem;
+      border-radius: 6px;
+    }
+    .text-download-block {
+      font-weight: 300;
+      line-height: 1.87rem;
+      margin-bottom: 2.5rem;
+    }
+    .btn-download-app{
+      &:hover {
+        .arrow-download {
+          path {
+            fill: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
+.customer {
+  margin-bottom: 13.5rem;
+  .area-customer-say {
+    padding: 4rem 7.3rem;
+    position: relative;
+    background: linear-gradient(191.49deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 1.5rem;
+    width: 1120px;
+    height: 425px;
+    .circle-right-customer {
+      right: -48px;
+      top: -15px;
+    }
+    .circle-left-customer {
+      left: -50px;
+      bottom: 40px;
+    }
+    .text-question-block-customer {
+      font-weight: bold;
+      font-size: 2.25rem;
+      line-height: 3rem;
+      color: #FFFFFF;
+      margin-bottom: 6.5rem;
+      text-align: center;
+    }
+
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1270px;
+  }
+}
+
 
