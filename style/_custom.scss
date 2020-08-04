@@ -1,3 +1,4 @@
+
 .spot-image {
   top: 915px;
   right: 0;
@@ -15,6 +16,7 @@ h2 {
   font-weight: bold;
   font-size: 3rem;
   line-height: 3.5rem;
+
 }
 
 .btn {
@@ -201,6 +203,7 @@ header {
 }
 .customer {
   margin-bottom: 13.5rem;
+  position: relative;
   .area-customer-say {
     padding: 4rem 7.3rem;
     position: relative;
@@ -208,22 +211,48 @@ header {
     border-radius: 1.5rem;
     width: 1120px;
     height: 425px;
+    z-index: 2;
     .circle-right-customer {
       right: -48px;
       top: -15px;
     }
-    .circle-left-customer {
-      left: -50px;
-      bottom: 40px;
-    }
+
     .text-question-block-customer {
       font-weight: bold;
       font-size: 2.25rem;
       line-height: 3rem;
       color: #FFFFFF;
-      margin-bottom: 6.5rem;
+      margin-bottom: 1.56rem;
       text-align: center;
     }
+    .line {
+      background: #FFFFFF;
+      border-radius: 6px;
+      margin-bottom: 4.8rem;
+    }
+  }
+  .circle-left-customer {
+    left: -48px;
+    bottom: 34px;
+    z-index: 1;
+  }
+}
+.comment {
+  .card-person {
+    flex-basis: 50%;
+    align-items: center;
+    .foto {
+      margin-right: 2rem;
+
+    }
+    .person-info {
+      flex-direction: column;
+
+    }
+
+  }
+  .person-comment {
+    flex-basis: 50%;
 
   }
 }
