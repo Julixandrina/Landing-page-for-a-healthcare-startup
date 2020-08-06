@@ -1,4 +1,6 @@
-
+body {
+  position: relative;
+}
 .spot-image {
   top: 915px;
   right: 0;
@@ -11,6 +13,14 @@
   top: 4225px;
 
 }
+.spot-footer-top-bg {
+
+  right: 70px;
+  z-index: 2;
+  bottom: 380px;
+
+}
+
 .line {
   width: 56px;
   height: 2px;
@@ -333,20 +343,57 @@ header {
 }
 footer {
   background: linear-gradient(180.92deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+  z-index: 3;
+  .spot-footer-bottom-bg {
+    bottom: 0;
+    left: 0;
+    z-index: 4;
+  }
+
 .block-footer {
   color: $white;
+  padding-top: 6.81rem;
+  padding-bottom: 6.81rem;
+  .about-company {
+    margin-top: 0.56rem;
+    .logo-footer {
+      font-weight: bold;
+      font-size: 1.5rem;
+      line-height: 1.875rem;
+      margin-bottom: 1.06rem;
+    }
+    .description-company-footer {
+      line-height: 1.75rem;
+      font-weight: 300;
+      font-size: 1.125rem;
+      margin-bottom: 1.94rem;
+      max-width: 391px;
+    }
+    .copyright-text {
+      font-weight: 300;
+      font-size: 1rem;
+      line-height: 1.75rem;
+    }
+  }
+
   .block-links {
+    flex-basis: 60%;
+    justify-content: space-around;
+
     .title-block {
       font-weight: bold;
       font-size: 1.25rem;
       line-height: 3.75rem;
 
     }
-    .links-blocks {
+    .links-block {
       font-weight: 300;
       font-size: 18px;
       line-height: 38px;
-      color: $white;
+
+      .card-link {
+        color: $white;
+      }
     }
   }
 }
