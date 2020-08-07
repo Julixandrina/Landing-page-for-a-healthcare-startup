@@ -20,6 +20,9 @@ body {
   bottom: 380px;
 
 }
+.main-container-page {
+  padding-top: 47px;
+}
 
 .line {
   width: 56px;
@@ -220,10 +223,11 @@ header {
   }
 }
 .customer {
-  margin-bottom: 13.5rem;
+
   position: relative;
   .area-customer-say {
     padding: 4rem 7.3rem 5.56rem;
+    margin-bottom: 2.625rem;
     position: relative;
     background: linear-gradient(191.49deg, #67C3F3 9.05%, #5A98F2 76.74%);
     border-radius: 1.5rem;
