@@ -1,6 +1,7 @@
 body {
   position: relative;
 }
+
 .spot-image {
   top: 915px;
   right: 0;
@@ -8,11 +9,13 @@ body {
   bottom: 0;
   z-index: -1;
 }
+
 .spot-articles-bg {
   right: 0;
-  top: 4225px;
+  top: 4424px;
 
 }
+
 .spot-footer-top-bg {
 
   right: 70px;
@@ -20,8 +23,9 @@ body {
   bottom: 380px;
 
 }
+
 .main-container-page {
-  padding-top: 47px;
+  padding-top: 49px;
 }
 
 .line {
@@ -30,50 +34,81 @@ body {
   background: #000000;
   border-radius: 5px;
 }
+
 h2 {
   font-weight: bold;
   font-size: 3rem;
   line-height: 3.5rem;
+}
 
+h3 {
+  font-size: 2.25rem;
+  line-height: 3.5rem;
+  font-weight: bold;
 }
 
 .btn {
   white-space: nowrap;
+  padding: 0.5rem 2.5rem;
 }
+.btn-learn-more {
+  padding-left: 3.125rem;
+  padding-right: 3.125rem;
+}
+
+
 .card {
   max-width: 350px;
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
   height: 100%;
   border: 1px solid rgba(0, 0, 0, 0);
 }
+
+.card-body {
+  padding: 2.55rem 2.2rem 2.91rem
+}
+
 header {
+  min-width: 1260px;
+
   .navbar {
     .navbar-brand {
       font-weight: bold;
+      line-height: 2.875rem;
+      padding-top: 0;
+      padding-bottom: 0;
     }
   }
+
   .navbar-nav {
     .nav-item {
       &:not(:last-of-type) {
-        margin-right: 1.5rem;
+        margin-right: 1.55rem;
       }
     }
+
     .active > .nav-link {
       font-weight: bold;
     }
-    }
+  }
 
 
 }
+
 .consulting-today {
-  margin-top: 5rem;
-  margin-bottom: 12rem;
+
+  margin-bottom: 12.1rem;
   position: relative;
+  max-width: 1270px;
+
   .consult-block {
+    margin-top: 10.7rem;
+
     h2 {
       margin-bottom: 1.56rem;
 
     }
+
     .text-consult-block {
       margin-bottom: 3rem;
       font-size: 1.31rem;
@@ -83,135 +118,202 @@ header {
   }
 
   .circle-image.position-absolute {
-    left: -164px;
+    left: -173px;
+    top: 50px;
+  }
+
+  .image-consulting-block {
+    padding-top: 4.2rem;
+    margin-left: 2.5rem;
   }
 }
+
 .services {
-  max-width: 950px;
+
   margin-bottom: 5rem;
+
   .name-section {
-    margin-bottom: 1.625rem;
+    margin-bottom: 1.5rem;
+    padding-left: 15px;
   }
+
   .line-section {
     margin-bottom: 2.06rem;
+    padding-left: 0.95rem;
 
   }
+
+  .description-services {
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.875rem;
+    margin-left: 146px;
+    margin-right: 133px;
+  }
 }
+
 .container-cards-services {
-  margin-bottom: 5rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  margin-bottom: 2.1rem;
+  padding-left: 3.2rem;
+  padding-right: 1.9rem;
   position: relative;
+
   .circle-image-services {
-    right: 10px;
-    top: 265px;
+    right: 3px;
+    top: 261px;
   }
 
   .card-area {
-    margin-bottom: 2.3rem;
+    margin-bottom: 2.5rem;
+
+    .card-body {
+      padding-top: 0.25rem;
+    }
+
   }
+
   .circle-image-services img {
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
   }
+
   .container-image-card {
-    flex-basis: 140px;
-    min-height: 140px;
-    max-height: 140px;
-    padding-left: 2.43rem;
+    padding-top: 1.3rem;
+    $container-image-height: 175px;
+    flex-basis: $container-image-height;
+    min-height: $container-image-height;
+    max-height: $container-image-height;
+    padding-left: 2.2rem;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-  }
-  .card {
-    .search-image {
-      height: 90px;
-      width: 92px;
-    }
-    .pharmacy-image {
-      height: 85px;
-      width: 62px;
-    }
-    .consultation-image {
-      height: 95px;
-      width: 68px;
-    }
-    .info-image {
-      height: 95px;
-      width: 68px;
-    }
-    .care-image {
-      width: 80px;
-      height: 72px;
-    }
-    .tracking-image {
-      width: 70px;
-      height: 95px;
 
-    }
-    .card-title {
-      font-weight: bold;
-      font-size: 1.5rem;
-    }
-    .card-text {
-      font-size: 1rem;
-      font-weight: 300;
-      line-height: 1.75rem;
+    .search-image {
+      max-height: 90px;
     }
   }
+
+  .consultation-image {
+    height: 95px;
+    width: 68px;
+
+  }
+
+  .pharmacy-image {
+    height: 85px;
+    width: 62px;
+
+  }
+
+  .info-image {
+    max-height: 95px;
+    width: 68px;
+  }
+
+  .care-image {
+    width: 80px;
+    height: 72px;
+  }
+
+  .tracking-image {
+    width: 70px;
+    height: 95px;
+
+  }
+
+  .card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.75rem;
+  }
+
 }
+
+
 .btn-view-more-services {
   margin-bottom: 13.75rem;
-}
-.providers-learn {
-  margin-bottom: 10rem;
-  img.position-absolute.circle-img-after-providers {
-    right: -100px;
-    bottom: -50px;
-  }
-.info {
-  padding-left: 7.62rem;
-  padding-right: 4.5rem;
-  .title-providers-block{
-    margin-bottom: 1.625rem;
-    font-size: 2.25rem;
-    line-height: 3.5rem;
-    font-weight: bold;
-  }
-  .line {
-    border-radius: 0.625rem;
-    margin-bottom: 1.94rem;
-  }
-  .text-providers-block {
-    font-weight: 300;
-    line-height: 1.87rem;
-    margin-bottom: 2.31rem;
-  }
-}
+  margin-left: 15px;
 
 }
+
+.providers-learn {
+  margin-bottom: 10rem;
+
+  img.position-absolute.circle-img-after-providers {
+    right: -187px;
+    bottom: -60px;
+  }
+  .image-providers {
+    max-width: 650px;
+    margin-left: -38px;
+  }
+
+  .info {
+    padding-left: 9.8rem;
+    padding-right: 4.5rem;
+    padding-top: 3.6875rem;
+
+    .title-providers-block {
+      margin-bottom: 1.6rem;
+      font-size: 2.25rem;
+      line-height: 3.5rem;
+      font-weight: bold;
+    }
+
+    .line {
+      border-radius: 0.625rem;
+      margin-bottom: 2rem;
+    }
+
+    .text-providers-block {
+      font-weight: 300;
+      line-height: 1.87rem;
+      margin-bottom: 2.65rem;
+    }
+  }
+
+}
+
 .download-app {
-  margin-bottom: 15rem;
+  margin-bottom: 16.5rem;
+
   .block-text-download {
     padding-left: 7.62rem;
     padding-right: 4rem;
+    padding-top: 6.7rem;
+
+
     .title-download-block {
       font-weight: bold;
       font-size: 2.25rem;
       margin-bottom: 1.87rem;
+      line-height: 3rem;
     }
+
     .line {
       margin-bottom: 1.87rem;
       border-radius: 6px;
     }
+
     .text-download-block {
       font-weight: 300;
-      line-height: 1.87rem;
-      margin-bottom: 2.5rem;
+      line-height: 1.875rem;
+      margin-bottom: 2.4rem;
     }
-    .btn-download-app{
+    .block-text-download {
+      padding-left: 7.62rem;
+      padding-right: 4rem;
+      padding-top: 5rem;
+    }
+
+    .btn-download-app {
       &:hover {
         .arrow-download {
           path {
@@ -221,18 +323,29 @@ header {
       }
     }
   }
-}
+  .block-image-project-download {
+    max-width: 665px;
+    margin-left: -37px;
+    padding-top: 71px;
+  }
+  }
+
+
 .customer {
 
   position: relative;
+
   .area-customer-say {
-    padding: 4rem 7.3rem 5.56rem;
+    padding: 4rem 7.3rem 4.5rem;
     margin-bottom: 2.625rem;
     position: relative;
     background: linear-gradient(191.49deg, #67C3F3 9.05%, #5A98F2 76.74%);
     border-radius: 1.5rem;
-    max-width: 1120px;
+    max-width: 1115px;
     z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+
     .circle-right-customer {
       right: -48px;
       top: -15px;
@@ -246,33 +359,39 @@ header {
       margin-bottom: 1.56rem;
       text-align: center;
     }
+
     .line {
       background: $white;
       border-radius: 6px;
-      margin-bottom: 4.8rem;
+      margin-bottom: 4.7rem;
     }
   }
+
   .circle-left-customer {
-    left: -48px;
-    bottom: 34px;
+    left: 5px;
+    bottom: 111px;
     z-index: 1;
   }
 }
+
 .comment {
   .card-person {
     flex-basis: 50%;
     align-items: center;
+
     .foto {
       margin-right: 2rem;
     }
+
     .person-info {
       flex-direction: column;
+
       .name-person {
         font-weight: bold;
         font-size: 1.375rem;
-        line-height: 3rem;
         color: $white;
       }
+
       .name-profession {
         font-weight: normal;
         font-size: 1.125rem;
@@ -283,6 +402,7 @@ header {
     }
 
   }
+
   .person-comment {
     flex-basis: 50%;
     font-weight: normal;
@@ -292,51 +412,61 @@ header {
 
   }
 }
+
 .section-articles {
   .name-section {
     font-size: 2.25rem;
   }
+
   .line-section {
     margin-bottom: 4.93rem;
   }
 
 }
+
 .container-articles {
   margin-bottom: 4.31rem;
   position: relative;
+
   .circle-image {
     top: -50px;
     left: -33px;
   }
+
   .card {
     .container-image-card {
       border-radius: 20px 20px 0 0;
     }
+
     .card-body {
       padding: 1.5rem 2.06rem 2.19rem;
+
       .card-title {
         font-weight: bold;
         font-size: 1.31rem;
         line-height: 2rem;
       }
+
       .card-text {
         font-weight: 300;
         font-size: 1rem;
         line-height: 1.75rem;
       }
+
       .more-article {
         font-weight: 600;
         font-size: 1.06rem;
         line-height: 1.75rem;
       }
+
       .card-link {
         &:hover {
 
           svg {
-              path{
-                fill: #1362cd;
-              }
+            path {
+              fill: #1362cd;
             }
+          }
 
         }
 
@@ -345,64 +475,70 @@ header {
     }
   }
 }
+
 footer {
   background: linear-gradient(180.92deg, #67C3F3 -8.57%, #5A98F2 82.96%);
   z-index: 3;
+
   .spot-footer-bottom-bg {
     bottom: 0;
     left: 0;
     z-index: 4;
   }
 
-.block-footer {
-  color: $white;
-  padding-top: 6.81rem;
-  padding-bottom: 6.81rem;
-  .about-company {
-    margin-top: 0.56rem;
-    .logo-footer {
-      font-weight: bold;
-      font-size: 1.5rem;
-      line-height: 1.875rem;
-      margin-bottom: 1.06rem;
-    }
-    .description-company-footer {
-      line-height: 1.75rem;
-      font-weight: 300;
-      font-size: 1.125rem;
-      margin-bottom: 1.94rem;
-      max-width: 391px;
-    }
-    .copyright-text {
-      font-weight: 300;
-      font-size: 1rem;
-      line-height: 1.75rem;
-    }
-  }
+  .block-footer {
+    color: $white;
+    padding-top: 6.81rem;
+    padding-bottom: 6.81rem;
 
-  .block-links {
-    flex-basis: 60%;
-    justify-content: space-around;
+    .about-company {
+      margin-top: 0.56rem;
 
-    .title-block {
-      font-weight: bold;
-      font-size: 1.25rem;
-      line-height: 3.75rem;
+      .logo-footer {
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 1.875rem;
+        margin-bottom: 1.06rem;
+      }
 
+      .description-company-footer {
+        line-height: 1.75rem;
+        font-weight: 300;
+        font-size: 1.125rem;
+        margin-bottom: 1.94rem;
+        max-width: 391px;
+      }
+
+      .copyright-text {
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 1.75rem;
+      }
     }
-    .links-block {
-      font-weight: 300;
-      font-size: 18px;
-      line-height: 38px;
 
-      .card-link {
-        color: $white;
+    .block-links {
+      flex-basis: 60%;
+      justify-content: space-around;
+
+      .title-block {
+        font-weight: bold;
+        font-size: 1.25rem;
+        line-height: 3.75rem;
+
+      }
+
+      .links-block {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 38px;
+
+        .card-link {
+          color: $white;
+        }
       }
     }
   }
 }
-}
-
 
 
 @media (min-width: 1200px) {
