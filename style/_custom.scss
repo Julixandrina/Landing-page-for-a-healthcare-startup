@@ -20,12 +20,12 @@ body {
 
   right: 70px;
   z-index: 2;
-  bottom: 380px;
+  bottom: 370px;
 
 }
 
 .main-container-page {
-  padding-top: 49px;
+  padding-top: 40px;
 }
 
 .line {
@@ -51,7 +51,7 @@ h3 {
   white-space: nowrap;
   padding: 0.5rem 2.5rem;
 }
-.btn-learn-more {
+.btn-more {
   padding-left: 3.125rem;
   padding-right: 3.125rem;
 }
@@ -69,7 +69,7 @@ h3 {
 }
 
 header {
-  min-width: 1260px;
+  max-width: 1260px;
 
   .navbar {
     .navbar-brand {
@@ -102,7 +102,7 @@ header {
   max-width: 1270px;
 
   .consult-block {
-    margin-top: 10.7rem;
+    padding-top: 10.7rem;
 
     h2 {
       margin-bottom: 1.56rem;
@@ -124,7 +124,7 @@ header {
 
   .image-consulting-block {
     padding-top: 4.2rem;
-    margin-left: 2.5rem;
+    padding-left: 2.5rem;
   }
 }
 
@@ -134,7 +134,7 @@ header {
 
   .name-section {
     margin-bottom: 1.5rem;
-    padding-left: 15px;
+    /*padding-left: 15px;*/
   }
 
   .line-section {
@@ -147,8 +147,8 @@ header {
     font-size: 1.125rem;
     font-weight: 300;
     line-height: 1.875rem;
-    margin-left: 146px;
-    margin-right: 133px;
+    /*margin-left: 146px;
+    margin-right: 133px;*/
   }
 }
 
@@ -239,20 +239,24 @@ header {
 
 .btn-view-more-services {
   margin-bottom: 13.75rem;
-  margin-left: 15px;
+  /*margin-left: 15px;*/
+  .btn-more.btn-more-small {
+    padding-left: 4.125rem;
+    padding-right: 4.125rem;
+  }
 
 }
 
 .providers-learn {
   margin-bottom: 10rem;
 
-  img.position-absolute.circle-img-after-providers {
-    right: -187px;
-    bottom: -60px;
+  .position-absolute.circle-img-after-providers {
+    /*right: -187px;
+    bottom: -60px;*/
   }
   .image-providers {
     max-width: 650px;
-    margin-left: -38px;
+
   }
 
   .info {
@@ -305,7 +309,7 @@ header {
     .text-download-block {
       font-weight: 300;
       line-height: 1.875rem;
-      margin-bottom: 2.4rem;
+      margin-bottom: 2.65rem;
     }
     .block-text-download {
       padding-left: 7.62rem;
@@ -363,7 +367,7 @@ header {
     .line {
       background: $white;
       border-radius: 6px;
-      margin-bottom: 4.7rem;
+      margin-bottom: 4.2rem;
     }
   }
 
@@ -395,7 +399,6 @@ header {
       .name-profession {
         font-weight: normal;
         font-size: 1.125rem;
-        line-height: 3rem;
         color: rgba(255, 255, 255, 0.85);
       }
 
@@ -409,6 +412,7 @@ header {
     font-size: 1.1875rem;
     line-height: 1.875rem;
     color: rgba(255, 255, 255, 0.9);
+    padding-top: 0.5rem;
 
   }
 }
@@ -416,6 +420,8 @@ header {
 .section-articles {
   .name-section {
     font-size: 2.25rem;
+    margin-bottom: 1.8rem;
+    line-height: 3rem;
   }
 
   .line-section {
@@ -425,7 +431,7 @@ header {
 }
 
 .container-articles {
-  margin-bottom: 4.31rem;
+  margin-bottom: 4.5rem;
   position: relative;
 
   .circle-image {
@@ -451,6 +457,7 @@ header {
         font-weight: 300;
         font-size: 1rem;
         line-height: 1.75rem;
+        margin-bottom: 1.56rem;
       }
 
       .more-article {
@@ -488,7 +495,7 @@ footer {
 
   .block-footer {
     color: $white;
-    padding-top: 6.81rem;
+    padding-top: 5.81rem;
     padding-bottom: 6.81rem;
 
     .about-company {
@@ -539,12 +546,134 @@ footer {
     }
   }
 }
+@media (max-width: 1199.98px) {
 
-
-@media (min-width: 1200px) {
-  .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1270px;
+}
+@media (max-width: 991.98px) {
+  .spot-articles-bg {
+    display: none;
+  }
+  .consulting-today .consult-block {
+    padding-top: 3rem;
+  }
+  .providers-learn {
+    margin-bottom: 6rem;
+  }
+  .providers-learn .info  {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    margin-bottom: 4.2rem;
+  }
+  .consulting-today {
+    margin-bottom: 6rem;
+  }
+  .btn-view-more-services {
+    margin-bottom: 6rem;
+    /*margin-left: 15px;*/
+    .btn-more.btn-more-small {
+      padding-left: 4.125rem;
+      padding-right: 4.125rem;
+    }
+  }
+  .download-app {
+    margin-bottom: 6rem;
+  }
+  .download-app .block-text-download {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0;
+  }
+  .customer .slider-navigation-container {
+    margin-bottom: 6rem;
+  }
+  .comment {
+    flex-direction: column;
+  }
+  footer {
+    .block-footer {
+      flex-direction: column;
+      align-items: normal;
+      .about-company {
+        margin-bottom: 4.5rem;
+      }
+    }
+  }
+  .image-providers {
+    justify-items: center;
+    order: 2;
+    margin-bottom: 6rem;
+  }
+  .center-vertical-picture {
+    align-items: center;
   }
 }
+@media (max-width: 767.98px) {
+  .spot-image {
+    display: none;
+  }
+  .title-providers-block {
+    text-align: center;
+  }
+  .providers-learn .info .line {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .block-text-download .title-download-block {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .block-text-download .line {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .customer .area-customer-say {
+    padding: 1.5rem 2.5rem;
+    .line {
+      margin-bottom: 1.5rem;
+    }
+  }
+  .comment .card-person {
+    flex-direction: column;
+    margin-bottom: 2rem;
+    .foto {
+      margin-right: 0;
+      margin-bottom: 1.5rem;
+    }
+  }
+  .container {
+     .card-area {
+       margin-bottom: 3rem;
+     }
+  }
+}
+@media (max-width: 575.98px) {
+  footer {
+    .block-footer {
+      .block-links {
+        flex-direction: column;
+      }
+    }
+    .title-block {
+      text-align: center;
+    }
+  }
+}
+/*
+@media (max-width: 576px) {
+  !*.providers-learn .info {
+    padding-left: 0;
+     padding-right: 0;
+
+  }*!
+  .services .description-services {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+
+}
+*/
+
 
 
