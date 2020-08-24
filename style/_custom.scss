@@ -3,35 +3,46 @@ body {
 }
 
 .spot-image {
-  top: 915px;
+  top: 57.19rem;
   right: 0;
   left: 0;
   bottom: 0;
   z-index: -1;
+  background-image: url("/image_project/spot-image.svg");
+  background-repeat: no-repeat;
+
 }
 
-.spot-articles-bg {
+.spot-articles {
+  width: 49rem;
+  height: 36rem;
+
+  background-position: center right;
   right: 0;
-  top: 4424px;
+  top: 285rem;
   z-index: -1;
+  background-image: url("/image_project/spot-articles.svg");
+  background-repeat: no-repeat;
+  /*background-size: 49rem auto;*/
 
 }
 
 .spot-footer-top-bg {
 
-  right: 70px;
+  right: 4.375rem;
   z-index: 2;
-  bottom: 370px;
+  bottom: 23.125rem;
 
 }
 
 .main-container-page {
-  padding-top: 40px;
+  padding-top: 3.125rem;
+  max-width: 1270px;
 }
 
 .line {
-  width: 56px;
-  height: 2px;
+  width: 3.5rem;
+  height: 0.125rem;
   background: #000000;
   border-radius: 5px;
 }
@@ -52,6 +63,7 @@ h3 {
   white-space: nowrap;
   padding: 0.5rem 2.5rem;
 }
+
 .btn-more {
   padding-left: 3.125rem;
   padding-right: 3.125rem;
@@ -93,12 +105,9 @@ header {
       font-weight: bold;
     }
   }
-
-
 }
 
 .consulting-today {
-
   margin-bottom: 12.1rem;
   position: relative;
   max-width: 1270px;
@@ -108,7 +117,6 @@ header {
 
     h2 {
       margin-bottom: 1.56rem;
-
     }
 
     .text-consult-block {
@@ -120,37 +128,34 @@ header {
   }
 
   .circle-image.position-absolute {
-    left: -173px;
-    top: 50px;
+    left: -10.81rem;
+    top: 3.125rem;
   }
 
   .image-consulting-block {
     padding-top: 4.2rem;
-    padding-left: 2.5rem;
+    padding-left: 3.5rem;
   }
 }
 
 .services {
-
   margin-bottom: 5rem;
 
   .name-section {
     margin-bottom: 1.5rem;
-    /*padding-left: 15px;*/
   }
 
   .line-section {
     margin-bottom: 2.06rem;
     padding-left: 0.95rem;
-
   }
 
   .description-services {
     font-size: 1.125rem;
     font-weight: 300;
     line-height: 1.875rem;
-    /*margin-left: 146px;
-    margin-right: 133px;*/
+    padding: 0 8rem;
+    text-align: center;
   }
 }
 
@@ -159,8 +164,8 @@ header {
   position: relative;
 
   .circle-image-services {
-    right: 3px;
-    top: 261px;
+    right: 0.1875rem;
+    top: 16.31rem;
   }
 
   .card-area {
@@ -171,7 +176,6 @@ header {
     .card-body {
       padding-top: 0.25rem;
     }
-
   }
 
   .circle-image-services img {
@@ -183,7 +187,7 @@ header {
 
   .container-image-card {
     padding-top: 1.3rem;
-    $container-image-height: 175px;
+    $container-image-height: 10.938rem;
     flex-basis: $container-image-height;
     min-height: $container-image-height;
     max-height: $container-image-height;
@@ -222,7 +226,6 @@ header {
   .tracking-image {
     width: 70px;
     height: 95px;
-
   }
 
   .card-title {
@@ -235,30 +238,22 @@ header {
     font-weight: 300;
     line-height: 1.75rem;
   }
-
 }
-
 
 .btn-view-more-services {
   margin-bottom: 13.75rem;
-  /*margin-left: 15px;*/
+
   .btn-more.btn-more-small {
     padding-left: 4.125rem;
     padding-right: 4.125rem;
   }
-
 }
 
 .providers-learn {
   margin-bottom: 10rem;
 
-  .position-absolute.circle-img-after-providers {
-    /*right: -187px;
-    bottom: -60px;*/
-  }
   .image-providers {
     max-width: 650px;
-
   }
 
   .info {
@@ -284,7 +279,6 @@ header {
       margin-bottom: 2.65rem;
     }
   }
-
 }
 
 .download-app {
@@ -295,7 +289,6 @@ header {
     padding-right: 4rem;
     padding-top: 6.7rem;
 
-
     .title-download-block {
       font-weight: bold;
       font-size: 2.25rem;
@@ -305,7 +298,7 @@ header {
 
     .line {
       margin-bottom: 1.87rem;
-      border-radius: 6px;
+      border-radius: 0.375rem;
     }
 
     .text-download-block {
@@ -313,6 +306,7 @@ header {
       line-height: 1.875rem;
       margin-bottom: 2.65rem;
     }
+
     .block-text-download {
       padding-left: 7.62rem;
       padding-right: 4rem;
@@ -329,16 +323,14 @@ header {
       }
     }
   }
+
   .block-image-project-download {
     max-width: 665px;
-    /*margin-left: -37px;*/
-    padding-top: 71px;
+    padding-top: 4.44rem;
   }
-  }
-
+}
 
 .customer {
-
   position: relative;
 
   .area-customer-say {
@@ -347,14 +339,14 @@ header {
     position: relative;
     background: linear-gradient(191.49deg, #67C3F3 9.05%, #5A98F2 76.74%);
     border-radius: 1.5rem;
-    max-width: 1115px;
+    max-width: 69.69rem;
     z-index: 2;
     margin-left: auto;
     margin-right: auto;
 
     .circle-right-customer {
-      right: -48px;
-      top: -15px;
+      right: -3rem;
+      top: -0.94rem;
     }
 
     .text-question-block-customer {
@@ -368,30 +360,31 @@ header {
 
     .line {
       background: $white;
-      border-radius: 6px;
+      border-radius: 0.375rem;
       margin-bottom: 4.2rem;
     }
   }
 
   .circle-left-customer {
     left: 5px;
-    bottom: 111px;
+    bottom: 6.94rem;
     z-index: 1;
   }
 }
 
 .comment {
   padding: 1rem;
+
   .card-person {
     flex-basis: 50%;
     align-items: center;
-
 
     .foto {
       margin-right: 2rem;
       width: 133px;
       height: 133px;
       border-radius: 50%;
+
       .foto-user-comment {
         border: 4px solid white;
         box-sizing: border-box;
@@ -413,9 +406,7 @@ header {
         font-size: 1.125rem;
         color: rgba(255, 255, 255, 0.85);
       }
-
     }
-
   }
 
   .person-comment {
@@ -439,7 +430,6 @@ header {
   .line-section {
     margin-bottom: 4.93rem;
   }
-
 }
 
 .container-articles {
@@ -447,8 +437,8 @@ header {
   position: relative;
 
   .circle-image {
-    top: -50px;
-    left: -33px;
+    top: -3.125rem;
+    left: -2.06rem;
   }
 
   .card {
@@ -480,17 +470,13 @@ header {
 
       .card-link {
         &:hover {
-
           svg {
             path {
               fill: #1362cd;
             }
           }
-
         }
-
       }
-
     }
   }
 }
@@ -545,13 +531,12 @@ footer {
         font-weight: bold;
         font-size: 1.25rem;
         line-height: 3.75rem;
-
       }
 
       .links-block {
         font-weight: 300;
-        font-size: 18px;
-        line-height: 38px;
+        font-size: 1.125rem;
+        line-height: 2.375rem;
 
         .card-link {
           color: $white;
@@ -560,23 +545,35 @@ footer {
     }
   }
 }
-@media (max-width: 1199.98px) {
 
+@media (max-width: 1199.98px) {
+  /*.spot-image {
+    display: none;
+  }*/
+  /*.spot-articles-bg {
+    display: none;
+  }*/
+  .customer .area-customer-say .circle-right-customer {
+    right: 0;
+  }
 }
+
 @media (max-width: 991.98px) {
-  .spot-image {
-    display: none;
+  .customer .area-customer-say .circle-right-customer {
+    right: 0;
   }
-  .spot-articles-bg {
-    display: none;
+  .container-articles .circle-image {
+    left: 0;
   }
+
+
   .consulting-today .consult-block {
     padding-top: 3rem;
   }
   .providers-learn {
     margin-bottom: 6rem;
   }
-  .providers-learn .info  {
+  .providers-learn .info {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-top: 1rem;
@@ -587,7 +584,7 @@ footer {
   }
   .btn-view-more-services {
     margin-bottom: 6rem;
-    /*margin-left: 15px;*/
+
     .btn-more.btn-more-small {
       padding-left: 4.125rem;
       padding-right: 4.125rem;
@@ -611,6 +608,7 @@ footer {
     .block-footer {
       flex-direction: column;
       align-items: normal;
+
       .about-company {
         margin-bottom: 4.5rem;
       }
@@ -618,7 +616,6 @@ footer {
   }
   .image-providers {
     justify-items: center;
-    order: 2;
     margin-bottom: 6rem;
   }
   .center-vertical-picture {
@@ -630,7 +627,18 @@ footer {
     margin-bottom: 1.5rem;
   }
 }
+
 @media (max-width: 767.98px) {
+  .spot-articles {
+    top: 450rem;
+  }
+  .image-providers {
+    order: 2;
+  }
+  .services .description-services {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
   .title-providers-block {
     text-align: center;
@@ -649,6 +657,7 @@ footer {
   }
   .customer .area-customer-say {
     padding: 1.5rem 2.5rem;
+
     .line {
       margin-bottom: 1.5rem;
     }
@@ -656,22 +665,27 @@ footer {
   .comment .card-person {
     flex-direction: column;
     margin-bottom: 2rem;
+
     .foto {
       margin-right: 0;
       margin-bottom: 1.5rem;
     }
   }
   .container {
-     .card-area {
-       margin-bottom: 3rem;
-     }
+    .card-area {
+      margin-bottom: 3rem;
+    }
   }
   .customer .area-customer-say .circle-right-customer {
     right: 0;
     top: 0;
   }
 }
+
 @media (max-width: 575.98px) {
+  .spot-articles {
+    top: 485rem;
+  }
   .swiper-pagination {
     margin-right: 1.5rem;
     margin-left: 1.5rem;
@@ -697,31 +711,18 @@ footer {
   footer {
     .block-footer {
       padding: 5rem 1rem 5.5rem;
+
       .block-links {
         flex-direction: column;
       }
     }
+
     .title-block {
       text-align: center;
     }
   }
-
 }
-/*
-@media (max-width: 576px) {
-  !*.providers-learn .info {
-    padding-left: 0;
-     padding-right: 0;
 
-  }*!
-  .services .description-services {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-
-}
-*/
 
 
 
