@@ -2,37 +2,31 @@ body {
   position: relative;
 }
 
-.spot-image {
+.spot-services {
   top: 57.19rem;
   right: 0;
   left: 0;
   bottom: 0;
   z-index: -1;
-  background-image: url("/image_project/spot-image.svg");
+  background-image: url("/image_project/spot-services.svg");
   background-repeat: no-repeat;
-
 }
 
 .spot-articles {
   width: 49rem;
   height: 36rem;
-
   background-position: center right;
   right: 0;
   top: 285rem;
   z-index: -1;
   background-image: url("/image_project/spot-articles.svg");
   background-repeat: no-repeat;
-  /*background-size: 49rem auto;*/
-
 }
 
 .spot-footer-top-bg {
-
   right: 4.375rem;
   z-index: 2;
   bottom: 23.125rem;
-
 }
 
 .main-container-page {
@@ -69,9 +63,8 @@ h3 {
   padding-right: 3.125rem;
 }
 
-
 .card {
-  max-width: 350px;
+  max-width: 21.875rem;
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
   height: 100%;
   border: 1px solid rgba(0, 0, 0, 0);
@@ -83,7 +76,7 @@ h3 {
 }
 
 header {
-  max-width: 1260px;
+  max-width: 78.75rem;
 
   .navbar {
     .navbar-brand {
@@ -110,7 +103,7 @@ header {
 .consulting-today {
   margin-bottom: 12.1rem;
   position: relative;
-  max-width: 1270px;
+  max-width: 79.375rem;
 
   .consult-block {
     padding-top: 10.7rem;
@@ -127,9 +120,13 @@ header {
     }
   }
 
-  .circle-image.position-absolute {
+  .circle-image {
     left: -10.81rem;
     top: 3.125rem;
+    width: 5.125rem;
+    height: 7.1875rem;
+    background-image: url("/image_project/circular-element.svg");
+    background-repeat: no-repeat;
   }
 
   .image-consulting-block {
@@ -164,8 +161,12 @@ header {
   position: relative;
 
   .circle-image-services {
-    right: 0.1875rem;
-    top: 16.31rem;
+    right: 0.9rem;
+    top: 22.65rem;
+    width: 8.25rem;
+    height: 7.19rem;
+    background-image: url("/image_project/circular-element-services.svg");
+    background-repeat: no-repeat;
   }
 
   .card-area {
@@ -176,13 +177,6 @@ header {
     .card-body {
       padding-top: 0.25rem;
     }
-  }
-
-  .circle-image-services img {
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
   }
 
   .container-image-card {
@@ -197,35 +191,30 @@ header {
     justify-content: flex-start;
 
     .search-image {
-      max-height: 90px;
+      max-height: 5.625rem;
     }
   }
 
   .consultation-image {
-    height: 95px;
-    width: 68px;
+    max-height: 5.9375rem;
+    /*max-width: 4.25rem;*/
 
   }
 
   .pharmacy-image {
-    height: 85px;
-    width: 62px;
-
+    max-height: 5.3125rem;
   }
 
   .info-image {
-    max-height: 95px;
-    width: 68px;
+    max-height: 5.9375rem;
   }
 
   .care-image {
-    width: 80px;
-    height: 72px;
+    max-height: 4.5rem;
   }
 
   .tracking-image {
-    width: 70px;
-    height: 95px;
+    max-height: 5.9375rem;
   }
 
   .card-title {
@@ -253,7 +242,7 @@ header {
   margin-bottom: 10rem;
 
   .image-providers {
-    max-width: 650px;
+    max-width: 40.625rem;
   }
 
   .info {
@@ -325,7 +314,7 @@ header {
   }
 
   .block-image-project-download {
-    max-width: 665px;
+    max-width: 41.56rem;
     padding-top: 4.44rem;
   }
 }
@@ -345,8 +334,8 @@ header {
     margin-right: auto;
 
     .circle-right-customer {
-      right: -3rem;
-      top: -0.94rem;
+      right: 1rem;
+      top: 1rem;
     }
 
     .text-question-block-customer {
@@ -365,10 +354,21 @@ header {
     }
   }
 
+  .circle-right-customer {
+    background-image: url("/image_project/circle-customer-right.svg");
+    background-repeat: no-repeat;
+    width: 8.25rem;
+    height: 7.19rem;
+  }
+
   .circle-left-customer {
     left: 5px;
     bottom: 6.94rem;
     z-index: 1;
+    background-repeat: no-repeat;
+    background-image: url("/image_project/circle-customer-left.svg");
+    width: 8.25rem;
+    height: 7.19rem;
   }
 }
 
@@ -379,14 +379,14 @@ header {
     flex-basis: 50%;
     align-items: center;
 
-    .foto {
+    .foto-person {
       margin-right: 2rem;
-      width: 133px;
-      height: 133px;
+      width: 8.31rem;
+      height: 8.31rem;
       border-radius: 50%;
 
       .foto-user-comment {
-        border: 4px solid white;
+        border: .25rem solid white;
         box-sizing: border-box;
         border-radius: 50%;
       }
@@ -443,7 +443,7 @@ header {
 
   .card {
     .container-image-card {
-      border-radius: 20px 20px 0 0;
+      border-radius: 1.25rem 1.25rem 0 0;
     }
 
     .card-body {
@@ -489,6 +489,10 @@ footer {
     bottom: 0;
     left: 0;
     z-index: 4;
+    background-image: url("/image_project/circle-customer-left.svg");
+    background-repeat: no-repeat;
+    width: 8.25rem;
+    height: 7.19rem;
   }
 
   .block-footer {
@@ -513,7 +517,7 @@ footer {
         font-weight: 300;
         font-size: 1.125rem;
         margin-bottom: 1.94rem;
-        max-width: 391px;
+        max-width: 24.44rem;
       }
 
       .copyright-text {
@@ -540,6 +544,11 @@ footer {
 
         .card-link {
           color: $white;
+          transition: color 300ms;
+
+          &:hover {
+            color: #1362cd;
+          }
         }
       }
     }
@@ -547,26 +556,15 @@ footer {
 }
 
 @media (max-width: 1199.98px) {
-  /*.spot-image {
-    display: none;
-  }*/
-  /*.spot-articles-bg {
-    display: none;
-  }*/
-  .customer .area-customer-say .circle-right-customer {
-    right: 0;
+  .consulting-today .circle-image.position-absolute {
+    left: 14rem;
   }
 }
 
 @media (max-width: 991.98px) {
-  .customer .area-customer-say .circle-right-customer {
-    right: 0;
-  }
   .container-articles .circle-image {
     left: 0;
   }
-
-
   .consulting-today .consult-block {
     padding-top: 3rem;
   }
@@ -666,7 +664,7 @@ footer {
     flex-direction: column;
     margin-bottom: 2rem;
 
-    .foto {
+    .foto-person {
       margin-right: 0;
       margin-bottom: 1.5rem;
     }
