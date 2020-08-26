@@ -8,7 +8,7 @@ body {
   left: 0;
   bottom: 0;
   z-index: -1;
-  background-image: url("/image_project/spot-services.svg");
+  background-image: url("../image_project/spot-services.svg");
   background-repeat: no-repeat;
 }
 
@@ -19,7 +19,7 @@ body {
   right: 0;
   top: 285rem;
   z-index: -1;
-  background-image: url("/image_project/spot-articles.svg");
+  background-image: url("../image_project/spot-articles.svg");
   background-repeat: no-repeat;
 }
 
@@ -125,7 +125,7 @@ header {
     top: 3.125rem;
     width: 5.125rem;
     height: 7.1875rem;
-    background-image: url("/image_project/circular-element.svg");
+    background-image: url("../image_project/circular-element.svg");
     background-repeat: no-repeat;
   }
 
@@ -165,7 +165,7 @@ header {
     top: 22.65rem;
     width: 8.25rem;
     height: 7.19rem;
-    background-image: url("/image_project/circular-element-services.svg");
+    background-image: url("../image_project/circular-element-services.svg");
     background-repeat: no-repeat;
   }
 
@@ -355,7 +355,7 @@ header {
   }
 
   .circle-right-customer {
-    background-image: url("/image_project/circle-customer-right.svg");
+    background-image: url("../image_project/circle-customer-right.svg");
     background-repeat: no-repeat;
     width: 8.25rem;
     height: 7.19rem;
@@ -366,7 +366,7 @@ header {
     bottom: 6.94rem;
     z-index: 1;
     background-repeat: no-repeat;
-    background-image: url("/image_project/circle-customer-left.svg");
+    background-image: url("../image_project/circle-customer-left.svg");
     width: 8.25rem;
     height: 7.19rem;
   }
@@ -489,7 +489,7 @@ footer {
     bottom: 0;
     left: 0;
     z-index: 4;
-    background-image: url("/image_project/circle-customer-left.svg");
+    background-image: url("../image_project/circle-customer-left.svg");
     background-repeat: no-repeat;
     width: 8.25rem;
     height: 7.19rem;
